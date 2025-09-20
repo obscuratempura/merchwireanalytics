@@ -1,0 +1,69 @@
+<mjml>
+  <mj-body background-color="#ffffff">
+    <mj-section>
+      <mj-column>
+        <mj-text font-size="24px" font-weight="bold">{{ subject }}</mj-text>
+        <mj-text font-size="14px">{{ intro }}</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text font-size="18px" font-weight="bold">Top Movers</mj-text>
+        <mj-table>
+          <tr>
+            <th align="left">Brand</th>
+            <th align="left">Product</th>
+            <th align="left">SKU</th>
+            <th align="right">New Price</th>
+            <th align="right">Old Price</th>
+            <th align="right">Δ% 7d</th>
+            <th align="right">Discount%</th>
+          </tr>
+          {% for mover in movers %}
+          <tr>
+            <td>{{ mover.brand }}</td>
+            <td>{{ mover.product }}</td>
+            <td>{{ mover.sku or '-' }}</td>
+            <td align="right">{{ mover.new_price }}</td>
+            <td align="right">{{ mover.old_price }}</td>
+            <td align="right">{{ mover.delta_pct }}</td>
+            <td align="right">{{ mover.discount_pct }}</td>
+          </tr>
+          {% endfor %}
+        </mj-table>
+      </mj-column>
+    </mj-section>
+    {% if ads %}
+    <mj-section>
+      <mj-column>
+        <mj-text font-size="18px" font-weight="bold">Notable Ads</mj-text>
+        {% for ad in ads %}
+        <mj-text>
+          <strong>{{ ad.brand }}</strong>: {{ ad.summary }}<br />
+          <em>{{ ad.tagline }}</em> — {{ ad.note }}
+        </mj-text>
+        {% endfor %}
+      </mj-column>
+    </mj-section>
+    {% endif %}
+    {% if chart_url %}
+    <mj-section>
+      <mj-column>
+        <mj-image width="800px" src="{{ chart_url }}"></mj-image>
+      </mj-column>
+    </mj-section>
+    {% endif %}
+    <mj-section>
+      <mj-column>
+        <mj-button href="{{ csv_url }}">Download CSV</mj-button>
+        <mj-button href="{{ archive_url }}">Search Archive</mj-button>
+        <mj-button background-color="#F97316" href="{{ upgrade_url }}">Upgrade</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text font-size="12px">You received this email because you subscribed to Merchwire Brief. <a href="{{ unsubscribe_url }}">Unsubscribe</a></mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

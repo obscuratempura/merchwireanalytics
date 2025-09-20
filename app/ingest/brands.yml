@@ -1,0 +1,120 @@
+- name: HexCo
+  domain: https://hexco.com
+  category: skincare
+  facebook_page_id: "1234567890"
+- name: Lumi Threads
+  domain: https://lumithreads.com
+  category: apparel
+  facebook_page_id: "2345678901"
+- name: Apex Gear
+  domain: https://apexgear.com
+  category: fitness
+  facebook_page_id: "3456789012"
+- name: Verdant Kitchen
+  domain: https://verdantkitchen.com
+  category: home
+  facebook_page_id: "4567890123"
+- name: Nova Pantry
+  domain: https://novapantry.com
+  category: grocery
+  facebook_page_id: "5678901234"
+- name: Harbor Hues
+  domain: https://harborhues.com
+  category: decor
+  facebook_page_id: "6789012345"
+- name: Ember Labs
+  domain: https://emberlabs.com
+  category: electronics
+  facebook_page_id: "7890123456"
+- name: Drift Supply
+  domain: https://driftsupply.com
+  category: apparel
+  facebook_page_id: "8901234567"
+- name: Meadow Bloom
+  domain: https://meadowbloom.com
+  category: gardening
+  facebook_page_id: "9012345678"
+- name: Northwind Outfitters
+  domain: https://northwindoutfitters.com
+  category: outdoor
+  facebook_page_id: "1123456789"
+- name: Pulse Nutrition
+  domain: https://pulsenutrition.com
+  category: health
+  facebook_page_id: "1223456789"
+- name: Stellar Pets
+  domain: https://stellarpets.com
+  category: pets
+  facebook_page_id: "1323456789"
+- name: Tide & Timber
+  domain: https://tideandtimber.com
+  category: lifestyle
+  facebook_page_id: "1423456789"
+- name: Urban Bean
+  domain: https://urbanbean.com
+  category: beverage
+  facebook_page_id: "1523456789"
+- name: Orbit Office
+  domain: https://orbitoffice.com
+  category: office
+  facebook_page_id: "1623456789"
+- name: Radiant Labs
+  domain: https://radiantlabs.com
+  category: skincare
+  facebook_page_id: "1723456789"
+- name: Mesa Outfitters
+  domain: https://mesaoutfitters.com
+  category: outdoor
+  facebook_page_id: "1823456789"
+- name: Velvet Hearth
+  domain: https://velvethearth.com
+  category: home
+  facebook_page_id: "1923456780"
+- name: Summit Cycle
+  domain: https://summitcycle.com
+  category: fitness
+  facebook_page_id: "2023456781"
+- name: Echo Audio
+  domain: https://echoaudio.com
+  category: electronics
+  facebook_page_id: "2123456782"
+- name: Mariner Supply
+  domain: https://marinersupply.com
+  category: outdoor
+  facebook_page_id: "2223456783"
+- name: Evergreen Kids
+  domain: https://evergreenkids.com
+  category: kids
+  facebook_page_id: "2323456784"
+- name: Copper Cup
+  domain: https://coppercup.com
+  category: beverage
+  facebook_page_id: "2423456785"
+- name: Bloom & Stitch
+  domain: https://bloomandstitch.com
+  category: apparel
+  facebook_page_id: "2523456786"
+- name: Meridian Goods
+  domain: https://meridiangoods.com
+  category: lifestyle
+  facebook_page_id: "2623456787"
+- name: Cascade Trail
+  domain: https://cascadetrail.com
+  category: outdoor
+  facebook_page_id: "2723456788"
+- name: Alpine Forge
+  domain: https://alpineforge.com
+  category: tools
+  facebook_page_id: "2823456789"
+- name: Saffron Glow
+  domain: https://saffronglow.com
+  category: beauty
+  facebook_page_id: "2923456780"
+- name: Prism Play
+  domain: https://prismplay.com
+  category: kids
+  facebook_page_id: "3023456781"
+- name: Kinetic Lab
+  domain: https://kineticlab.com
+  category: fitness
+  facebook_page_id: "3123456782"
